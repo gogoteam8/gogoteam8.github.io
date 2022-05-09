@@ -135,7 +135,9 @@
 
 /*---------header ends--------------*/
 
-
+html {
+    background-color: #ddd;
+}
 
 
 
@@ -144,7 +146,6 @@
    
     width: 100%;
     min-height: 100vh;
-    background-color: #ddd;
 }
 
 .container .title {
@@ -312,5 +313,3 @@ h4 {
             color: rgb(235, 49, 49);
             font-size: 40px;
         }
-
-
