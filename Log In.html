@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In | Gogo</title>
+    <link rel="stylesheet" href="css/log in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Jomhuria&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="myFunction()" style=" margin-top: 30px;  background-color: white; border: none; border-radius: 10px; width: 40px; height: 20px; margin-right: 0%; margin-left:1%;"></button>
+        <a href="#" class="logo"><span>G</span>ogo</a>
+
+        <a href="Home.html" style="  font-size:30px; ">Home</a>
+        <a href="Book.html" style="  font-size: 30px; ">Book</a>
+        <a href="Baggage.html" style="  font-size: 30px; ">Baggage</a>
+        <div class="dropdown">
+            <button class="dropbtn" style="font-size: 30px;">
+                Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="destination.html">Popular Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="Guide.html">Guide</a>
+                <a href="CHILDREN.html">Children Information</a>
+            </div>
+        </div>
+        <a href="FAQ.html" style="  font-size: 30px; ">FAQs</a>
+        <a href="Sign Up.html" style=" margin-top: 11px; margin-left:11%; margin-right:1%; font-size:18px" target="_blank">Sign Up</a>
+        <a href="Log in.html" style=" margin-top: 18px; margin-right: 1%; width: 90px; padding: 10px 10px; background: #bb0000; border-radius: 5px;" target="_blank">Log In</a>
+        <div class="dropdown">
+            <button class="dropbtn1" style="font-size: 25px; ">
+                <i class="fa fa-search" style="margin-top: 1%;"></i>
+
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <input type="text" placeholder="" />
+                <input type="button" value="Search" />
+                <h2 class="popular-topic">Popular Topics</h2>
+                <a href="about.html" style="margin-top: 2%; margin-left: 2%; ">about us</a> <br />
+                <a href="covid.html" style=" margin-left: 2%; ">covid-19</a> <br />
+                <a href="Terms&conditions.html" style=" margin-left: 1%; ">terms & conditions</a> <br />
+                <a href="privacy.html" style=" margin-left: 1%; ">privacy</a> <br />
+                <a href="contact us.html" style=" margin-left: 1%; ">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="loginn">
+        <h2 class="loginn-header">LOG IN</h2>
+        <!--action undefine-->
+        <form action="tyguh" method="post">
+            <label>Username</label>
+            <p><input type="text"style="margin-left:0%; margin-top:1%; width: 100%; display: block; border-style: solid; border-width: 1px; border-color:black; padding: 10px; box-sizing: border-box;" placeholder=" enter username " name="user" autofocus> </p>
+            <label>Password</label>
+            <p><input type="password" placeholder=" enter complex password " name="pass"></p>
+            <input type="submit" value="login">
+        </form>
+    </div>
+    <div class="feedback">
+        <a href="Feed Back.html" target="_blank">feedback</a>
+    </div>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Branch Location</h3>
+                <a href="#">Egypt</a>
+                <a href="#">German</a>
+                <a href="#">France</a>
+                <a href="#">USA</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="Home.html" target="blank">Home</a>
+                <a href="Book.html" target="blank">Book</a>
+                <a href="gallary.html" target="blank">Gallery</a>
+                <a href="About.html" target="blank">About</a>
+                <a href="FAQ.html" target="blank">FAQs</a>
+                <a href="contact us.html" target="blank">Contact Us</a>
+            </div>
+            <div class="box">
+                <h3> Follow Us</h3>
+                <a href="#"><i class="fab fa-linkedin"></i> </a>
+                <a href="#"><i class="fab fa-facebook"></i> </a>
+                <a href="#"><i class="fab fa-twitter"></i> </a>
+                <a href="#"><i class="fab fa-instagram"></i> </a>
+            </div>
+
+            <h2> Copyright &copy;2022<span>G</span>ogo Air Lines .All Right Reserved</h2>
+
+
+        </div>
+    </section>
+    <script>
+        function openmenu() {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+        $(document).ready(function () {
+
+            $(".fa-search").click(function () {
+                $(".search-box").toggle();
+                $("input[type='text']").focus();
+            });
+
+        });
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

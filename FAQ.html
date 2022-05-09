@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf_8">
+    <meta name="discription" content="amazing places for traveling">
+    <title>FAQs | Gogo</title>
+    <link rel="stylesheet" href="css/FAQ.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Jomhuria&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ 
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="myFunction()" style=" margin-top: 30px;  background-color: white; border: none; border-radius: 10px; width: 40px; height: 20px; margin-right: 0%; margin-left:1%;"></button>
+        <a href="#" class="logo"><span>G</span>ogo</a>
+
+        <a href="Home.html" style="  font-size:30px; ">Home</a>
+        <a href="Book.html" style="  font-size: 30px; ">Book</a>
+        <a href="Baggage.html" style="  font-size: 30px; ">Baggage</a>
+        <div class="dropdown">
+            <button class="dropbtn11" style="font-size: 30px;">
+                Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="destination.html">Popular Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="Guide.html">Guide</a>
+                <a href="CHILDREN.html">Children Information</a>
+            </div>
+        </div>
+        <a href="FAQ.html" style="  font-size: 30px; ">FAQs</a>
+        <a href="Sign Up.html" style=" margin-top: 11px; margin-left:11%; margin-right:1%; font-size:18px" target="_blank">Sign Up</a>
+        <a href="Log in.html" style=" margin-top: 18px; margin-right: 1%; width: 90px; padding: 10px 10px; background: #bb0000; border-radius: 5px;" target="_blank">Log In</a>
+        <div class="dropdown">
+            <button class="dropbtn1" style="font-size: 25px; ">
+                <i class="fa fa-search" style="margin-top: 1%;"></i>
+
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <input type="text" placeholder="" />
+                <input type="button" value="Search" />
+                <h2 class="popular-topic">Popular Topics</h2>
+                <a href="about.html" style="margin-top: 2%; margin-left: 2%; ">about us</a> <br />
+                <a href="covid.html" style=" margin-left: 2%; ">covid-19</a> <br />
+                <a href="Terms&conditions.html" style=" margin-left: 1%; ">terms & conditions</a> <br />
+                <a href="privacy.html" style=" margin-left: 1%; ">privacy</a> <br />
+                <a href="contact us.html" style=" margin-left: 1%; ">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-container1">
+        <div class="box">
+            <img src="images/help.jpg">          
+        </div>
+    </div>
+
+    <div class="ques">
+        <h2 style="margin-top: 1%; margin-left: 39%; font-size: 250%;  font-weight: 500; ">Frequently Asked Questions</h2>
+        <p style=" margin-top: 10px; margin-left:5%; margin-right: 20%; font-size: 140%; line-height:30px; ">
+            Below find answers to some of the most frequently asked questions our customers have when planning for travel.
+            We listen to your feedback and are continually improving to better support your travel needs.
+            If you don’t see the answer to your travel planning question, please provide feedback at the bottom of the page.
+        </p><br />
+    </div>
+
+
+    <div class="dropdowna">
+        <button onclick="question1()" class="dropbtn">Help! I need to change/cancel my reservation!</button>
+        <div id="myDropdown1" class="dropdown-content">
+            <p>
+                Gogo compares flight prices of various airline reservation sites and find the lowest price for you. <br />Select the lowest price you want and we will link you to the site so that you can complete your reservation.
+                <br />Since the actual reservation is connected to the airline or travel agent you have selected,<br /> Gogo is not involved in the reservation and payment, and your reservation information cannot be verified.<br />
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question2()" class="dropbtn">Can I book a flight for another person?</button>
+        <div id="myDropdown2" class="dropdown-content">
+            <p>
+                If you wish to pay for someone else's flight, you can certainly do so.
+                However,<br /> you'll need to make sure when entering the passenger's details that the name you put on the ticket matches<br /> the traveller's ID exactly -
+                a simple typo could prevent them from flying. Also, be aware<br /> that many airlines charge a substantial change fee to correct any mistakes should any information need to be edited after the ticket has been booked.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="dropdowna">
+        <button onclick="question3()" class="dropbtn">A bunch of us are going on a trip together - how do I book a flight for a large group?</button>
+        <div id="myDropdown3" class="dropdown-content">
+            <p>
+                Currently Gogo can search for a maximum of nine passengers at a time. That said, Gogo can still help you locate the best itineraries for your group.
+                <br />We suggest you find the flight you wish to purchase by completing a search at www.Gogo.com<br /> and then contacting the airline directly to discuss group trips.
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question4()" class="dropbtn">Do flight prices include baggage fees?</button>
+        <div id="myDropdown4" class="dropdown-content">
+            <p>
+                Nope. You'll have to check out our Gogo page to see if your airline charges extra for checked bags or carry-ons<br /> (yes, that's a thing now).
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question5()" class="dropbtn">Do prices include Taxes and Fees?</button>
+        <div id="myDropdown5" class="dropdown-content">
+            <p>
+                All flight prices on Gogo include applicable taxes and fees.<br />
+                Any exceptions to this are any optional fees like checked baggage or airlines that charge for seat selection,<br /> pet accommodations, etc.
+                These types of add-ons will have to be arranged separately with your airline.<br /> Want to know what sort of fees an airline might charge? We got you.
+                <br />
+                Train and bus prices on Gogo include applicable taxes and fees. Some partners may charge an additional service fee,<br />a fee for additional baggage, or a fee for certain payment methods.
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question6()" class="dropbtn">When I click a deal on your site it tells me that the price has gone up! What's up with that?</button>
+        <div id="myDropdown6" class="dropdown-content">
+            <p>
+                Because we're searching hundreds of other travel sites at once,<br /> sometimes there are accuracy issues originating from the information we're receiving from those sites.
+                <br /> Either the site isn't updating their inventory with us,<br /> has given the wrong path, or another traveler has booked the last available room.
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question7()" class="dropbtn">Where can I find my booking confirmation?</button>
+        <div id="myDropdown7" class="dropdown-content">
+            <p>
+                If you booked with one of our providers on the Gogosite, go to Bookings for info.
+                However, <br />if you booked off-site or we redirected you to a provider's website from Gogo to complete your purchase,<br /> then you'll need to contact the provider directly.
+                Not sure which provider you booked with? <br />Check your credit card statement to see who charged your card.
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question8()" class="dropbtn">What if my ticket is about to expire?</button>
+        <div id="myDropdown8" class="dropdown-content">
+            <p>
+                Gogo tickets normally expire one year from the date of purchase. However, for additional flexibility,<br />
+                all tickets expiring in 2022 and all new tickets purchased in 2022<br /> will be able to be rebooked through December 31, 2023 for travel now through 2024
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question9()" class="dropbtn">What should I do if I need a passport or need to renew my passport? </button>
+        <div id="myDropdown9" class="dropdown-content">
+            <p>
+                If you  are a U.S. citizen and need to receive or renew your passport ahead of international travel,<br /> please visit the U.S. Department of State’s travel website,
+                opens in a new window,to fill out the necessary forms.<br /> Be sure to give yourself plenty of time as passport processing often takes several months and could take longer during peak travel periods.<br />
+                Processing is often 14 weeks for routine requests and 10 weeks for expedited service.
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdowna">
+        <button onclick="question10()" class="dropbtn">Do I have to wear a face mask when traveling?</button>
+        <div id="myDropdown10" class="dropdown-content">
+            <p>
+                Face masks are no longer required inside domestic airports, on U.S. domestic flights and on most international flights.<br />
+                Please continue to bring a mask with you for international travel,<br /> because it may be required for some destinations based on their laws and requirements.
+            </p>
+        </div>
+    </div>
+    <br /><br /><br /><br /><br />
+
+
+    <div class="feedback">
+        <a href="Feed Back.html" target="_blank">feedback</a>
+    </div>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Branch Location</h3>
+                <a href="#">Egypt</a>
+                <a href="#">German</a>
+                <a href="#">France</a>
+                <a href="#">USA</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="Home.html" target="blank">Home</a>
+                <a href="Book.html" target="blank">Book</a>
+                <a href="gallary.html" target="blank">Gallery</a>
+                <a href="About.html" target="blank">About</a>
+                <a href="FAQ.html" target="blank">FAQs</a>
+                <a href="contact us.html" target="blank">Contact Us</a>
+            </div>
+            <div class="box">
+                <h3> Follow Us</h3>
+                <a href="#"><i class="fab fa-linkedin"></i> </a>
+                <a href="#"><i class="fab fa-facebook"></i> </a>
+                <a href="#"><i class="fab fa-twitter"></i> </a>
+                <a href="#"><i class="fab fa-instagram"></i> </a>
+            </div>
+
+            <h2> Copyright &copy;2022<span>G</span>ogo Air Lines .All Right Reserved</h2>
+
+
+        </div>
+    </section>
+
+
+
+    <script>
+        function openmenu() {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+        $(document).ready(function () {
+
+            $(".fa-search").click(function () {
+                $(".search-box").toggle();
+                $("input[type='text']").focus();
+            });
+
+        });
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+
+        function question1() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        } function question2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        } function question3() {
+            document.getElementById("myDropdown3").classList.toggle("show");
+        } function question4() {
+            document.getElementById("myDropdown4").classList.toggle("show");
+        } function question5() {
+            document.getElementById("myDropdown5").classList.toggle("show");
+        } function question6() {
+            document.getElementById("myDropdown6").classList.toggle("show");
+        } function question7() {
+            document.getElementById("myDropdown7").classList.toggle("show");
+        } function question8() {
+            document.getElementById("myDropdown8").classList.toggle("show");
+        } function question9() {
+            document.getElementById("myDropdown9").classList.toggle("show");
+        } function question10() {
+            document.getElementById("myDropdown10").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>

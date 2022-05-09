@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description"
+          content="Need to contact us? We &apos;re here to help" />
+    <title>Contact us | Gogo</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <!-------------header start---------------->
+    <div class="navbar">
+        <button onclick="myFunction()" style=" margin-top: 30px;  background-color: white; border: none; border-radius: 10px; width: 40px; height: 20px; margin-right: 0%; margin-left:1%;"></button>
+        <a href="#" class="logo"><span>G</span>ogo</a>
+
+        <a href="Home.html" style="  font-size:30px; ">Home</a>
+        <a href="Book.html" style="  font-size: 30px; ">Book</a>
+        <a href="Baggage.html" style="  font-size: 30px; ">Baggage</a>
+        <div class="dropdown">
+            <button class="dropbtn" style="font-size: 30px;">
+                Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="destination.html">Popular Destinations</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="Guide.html">Guide</a>
+                <a href="CHILDREN.html">Children Information</a>
+            </div>
+        </div>
+        <a href="FAQ.html" style="  font-size: 30px; ">FAQs</a>
+        <a href="Sign Up.html" style=" margin-top: 11px; margin-left:11%; margin-right:1%; font-size:18px" target="_blank">Sign Up</a>
+        <a href="Log in.html" style=" margin-top: 18px; margin-right: 1%; width: 90px; padding: 10px 10px; background: #bb0000; border-radius: 5px;" target="_blank">Log In</a>
+        <div class="dropdown">
+            <button class="dropbtn1" style="font-size: 25px; ">
+                <i class="fa fa-search" style="margin-top: 1%;"></i>
+
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <input type="text" placeholder="" />
+                <input type="button" value="Search" />
+                <h2 class="popular-topic">Popular Topics</h2>
+                <a href="about.html" style="margin-top: 2%; margin-left: 2%; ">about us</a> <br />
+                <a href="covid.html" style=" margin-left: 2%; ">covid-19</a> <br />
+                <a href="Terms&conditions.html" style=" margin-left: 1%; ">terms & conditions</a> <br />
+                <a href="privacy.html" style=" margin-left: 1%; ">privacy</a> <br />
+                <a href="contact us.html" style=" margin-left: 1%; ">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!--------------header end--------------->
+    <div class="needing" id="needing">
+        <h1>Require more assistance? We &apos;re here to help</h1>
+        <p>
+            Send us a message and we &apos;ll get back to you in few hours.<br />
+            In the meantime, check our <a href="FAQ.html" target="_blank" title="Go to FAQs">FAQs</a>
+            to see if your question has already been answered.
+        </p>
+    </div>
+    <!----------contact form start-------->
+    <div class="contact" id="contact">
+        <div class="row">
+            <form action="">
+                <h2 class="heading">Contact &nbsp; Information</h2>
+                <div class="inputBox">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="inputBox">
+                    <input type="email" placeholder="Email Address">
+                    <input type="number" placeholder="number">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="SEND">
+            </form>
+        </div>
+    </div>
+    <!----------contact form end-------->
+
+    <div class="feedback">
+        <a href="Feed Back.html" target="_blank">feedback</a>
+    </div>
+    <!---------footer start------------>
+    <footer>
+        <div class="box-container">
+            <div class="box">
+                <h3>Branch Location</h3>
+                <a href="#">Egypt</a>
+                <a href="#">German</a>
+                <a href="#">France</a>
+                <a href="#">USA</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="Home.html" target="blank">Home</a>
+                <a href="Book.html" target="blank">Book</a>
+                <a href="gallery.html" target="blank">Gallery</a>
+                <a href=" About.html" target="blank">About</a>
+                <a href="FAQ.html" target="blank">FAQs</a>
+                <a href="contact us.html" target="blank">Contact Us</a>
+            </div>
+            <div class="box">
+                <h3> Follow Us</h3>
+                <a href="#"><i class="fab fa-linkedin"></i> </a>
+                <a href="#"><i class="fab fa-facebook"></i> </a>
+                <a href="#"><i class="fab fa-twitter"></i> </a>
+                <a href="#"><i class="fab fa-instagram"></i> </a>
+            </div>
+
+            <h2> Copyright &copy;2022<span>G</span>ogo Air Lines .All Right Reserved</h2>
+
+
+        </div>
+    </footer>
+    <!---------footer end------------>
+    <script>
+        function openmenu() {
+            document.getElementById('sidebar').classList.toggle('active');
+        }
+        $(document).ready(function () {
+
+            $(".fa-search").click(function () {
+                $(".search-box").toggle();
+                $("input[type='text']").focus();
+            });
+
+        });
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>

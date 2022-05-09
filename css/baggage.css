@@ -1,0 +1,316 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+
+/*---------header starts--------------*/
+.navbar {
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 9%;
+    z-index: 1;
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    background: black;
+}
+
+    .navbar .logo {
+        margin-left: 3%;
+        margin-right: 15%;
+        font-size: 36px;
+        font-weight: bolder;
+        color: white;
+        text-decoration: none;
+    }
+
+.logo span {
+    color: rgb(235, 49, 49);
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .dropdown .dropbtn1 {
+        color: white;
+        background-color: black;
+        margin-top: 45%;
+    }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E8E8E4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-top: 4px solid #D80B15;
+}
+
+    .dropdown-content a {
+        font-family: Whitney-Semibold;
+        font-size: 1.125rem;
+        line-height: 25px;
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+[type="text"] {
+    margin-top: 3%;
+    width: 200px;
+    padding: 5px 10px;
+    margin-left: 23px;
+    border: 1px solid #D80B15;
+    outline: none;
+}
+
+[type="button"] {
+    margin-top: 4%;
+    width: 80px;
+    padding: 5px 0;
+    background: #D80B15;
+    color: #fff;
+    margin-left: -6px;
+    margin-right:6px;
+    border: 1px solid #D80B15;
+    outline: none;
+    cursor: pointer;
+}
+
+.popular-topic {
+    margin-top: 4%;
+    font-family: Whitney-Semibold;
+    font-size: 21px;
+    line-height: 1.5625rem;
+    color: black;
+    margin-left: 23px;
+    text-transform: uppercase;
+}
+
+/*---------header ends--------------*/
+
+
+
+
+
+
+.container {
+   
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+.container .title {
+    align-items: center;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    letter-spacing: 3px;
+    justify-content: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.container .title h1::after {
+    content: "";
+    border-radius: 6px;
+    height: 3px;
+    width: 230px;
+    background-color: #222;
+    display: block;
+    box-shadow: 0.5px 0.5px 0 0.5px red;
+}
+.container .content{
+    width: 90%;
+    display: grid;
+    margin: 40px auto;
+}
+
+.content .article {
+    padding: 25px 25px;
+    background-color: rgb(230, 227, 227);
+}
+
+.content .article h2 {
+    color: rgb(235, 49, 49);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.content .article p {
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(1, 1, 1);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.content ul li {
+    font-size: 22px;
+    color: rgb(1, 1, 1);
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+
+}
+
+table thead td {
+    background-color: rgb(112, 110, 110);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+table caption {
+    background-color: rgb(112, 110, 110);
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(162, 160, 160);
+    font-size: 30px;
+}
+
+table tbody td {
+    background-color: rgb(214, 207, 207);
+    color: rgb(43, 40, 40);
+    font-size: 20px;
+    text-align: center;
+    border-spacing: 2px;
+    border: 1px solid rgb(236, 226, 226);
+    text-align: center;
+
+}
+
+h4 {
+    font-size: 22px;
+    color: rgb(1, 1, 1);
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+
+.feedback {
+    font-family: 'Nunito', sans-serif;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 160px;
+    text-align: center;
+    padding: 15px 10px;
+    background: #bb0000;
+    border-radius: 5px;
+}
+
+    .feedback a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+.box-container {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer {
+    background-color: rgb(7, 7, 7);
+    width: 100%;
+}
+
+    .footer .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        width: 100%;
+        /*grid-gap (row - column)*/
+    }
+
+        .footer .box-container .box {
+            padding: 1rem 0px;
+            flex: 1 1 25rem;
+            width: 100%;
+        }
+
+            .footer .box-container .box h3 {
+                color: rgb(213, 205, 205);
+                font-size: 18px;
+                padding: 10px;
+                letter-spacing: 1.6;
+            }
+
+            .footer .box-container .box a {
+                text-decoration: none;
+                list-style: none;
+                color: rgb(235, 49, 49);
+                display: block;
+                padding: 10px;
+            }
+
+                .footer .box-container .box a:hover {
+                    color: #eee;
+                    text-decoration: underline;
+                }
+
+    .footer h2 {
+        color: rgb(174, 168, 168);
+        background-color: #222;
+        padding: 10px 0px;
+        width: 100%;
+    }
+        .footer h2 span {
+            color: rgb(235, 49, 49);
+            font-size: 40px;
+        }
+
+
