@@ -135,37 +135,36 @@
 }
 
 /*---------header ends--------------*/
-
+html {
+    background-color: #ddd;
+}
 .container {
     width: 100%;
     min-height: 110vh;
     /*	Relative to 1% of the height of the viewport*/
-    background-color: #ddd;
 }
 
-.container .title {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    padding: 50px 0;
-    letter-spacing: 1.4px;
-}
+    .container .title {
+        align-items: center;
+        padding: 40px 0px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        letter-spacing: 3px;
+        justify-content: center;
+        width: 100%;
+        text-transform: capitalize;
+    }
 
-.container .title h1::after {
-    content: "";
-    height: 5px;
-    width: 180px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    margin: auto;
-    display: block;
-    position: relative;
-    box-shadow: 0.5px 0.5px 0px 0.5px rgb(34, 33, 33);
-}
+        .container .title h1::after {
+            content: "";
+            border-radius: 6px;
+            height: 3px;
+            width: 230px;
+            background-color: #222;
+            display: block;
+            box-shadow: 0.5px 0.5px 0 0.5px red;
+        }
 
 .content {
     width: 85%;
