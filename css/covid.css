@@ -249,7 +249,7 @@ p{
                     background: black;
                 }
 
-    .footer h4 {
+    .footer h2 {
         font-size: 1.5em;
         color: rgb(174, 168, 168);
         background-color: #222;
@@ -257,7 +257,7 @@ p{
         width: 100%;
     }
 
-        .footer h4 span {
+        .footer h2 span {
             color: rgb(235, 49, 49);
             font-size: 40px;
             background: #222;
